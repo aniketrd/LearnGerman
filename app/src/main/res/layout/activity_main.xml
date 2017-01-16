@@ -9,17 +9,17 @@
     tools:context="com.example.android.learngerman.MainActivity">
 
     <TextView
+        android:id="@+id/tvNumbers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text_numbers"
         android:background="@color/textNumberBckgd"
         android:textAlignment="center"
         android:padding="16dp"
-        android:textSize="16sp"
-        android:onClick="openNumberActivity"
-        />
+        android:textSize="16sp"       />
 
     <TextView
+        android:id="@+id/tvFamily"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text_family"
@@ -27,10 +27,10 @@
         android:textAlignment="center"
         android:padding="16dp"
         android:textSize="16sp"
-        android:onClick="openFamilyActivity"
         />
 
     <TextView
+        android:id="@+id/tvColors"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text_colors"
@@ -38,10 +38,10 @@
         android:textAlignment="center"
         android:padding="16dp"
         android:textSize="16sp"
-        android:onClick="openColorsActivity"
         />
 
     <TextView
+        android:id="@+id/tvPhrases"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text_phrases"
@@ -49,7 +49,6 @@
         android:textAlignment="center"
         android:padding="16dp"
         android:textSize="16sp"
-        android:onClick="openPhrasesActivity"
         />
 
 </LinearLayout>
