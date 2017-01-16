@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="textNumberBckgd">#4caf50</color>
+    <color name="textFamilyBckgd">#2196f3</color>
+    <color name="textColorBckgd">#ff5722</color>
+    <color name="textPhraseBckgd">#795548</color>
 </resources>
